@@ -3,6 +3,11 @@
   "version": "0.0.1",
   "description": "Plugin for Insomnia to provide Secrets from AWS such as API keys",
   "main": "./src/plugin.js",
+  "insomnia": {
+    "name": "AwsSecretsManager",
+    "displayName": "AWS Secrets Manager",
+    "description": "Plugin for Insomnia to provide Secrets from AWS such as API keys"
+  },
   "repository": "git@github.com:lantrix/insomnia-plugin-aws-secrets-manager.git",
   "author": "Lantrix <lantrix@pobox.com>",
   "license": "ISC"
